@@ -15,11 +15,11 @@ my_server.get('/index', (req, res) => {
 });
 
 my_server.get('/about', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'about.html'));
+    res.sendFile(path.join(__dirname, 'public', 'services.html'));
 });
 
 my_server.get('/contact', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'contact.html'));
+    res.sendFile(path.join(__dirname, 'public', 'projects.html'));
 });
 
 // Start the server
